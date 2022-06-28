@@ -2,18 +2,18 @@ for (var i = 1; i <= 20; i++) //1から20までを繰り返す
 {
   if (i % 3 == 0 && i % 5 ==0) //3と5の最小公倍数15で割り切れる数字の時
   {
-    document.write('FizzBuzz');
+    document.write('FizzBuzz','<br>');
   } 
   else if (i % 3 == 0) //3で割り切れる数字の時
   {
-    document.write('Fizz');
+    document.write('Fizz','<br>');
   }
   else if (i % 5 == 0) //5で割り切れる数字の時
   {
-    document.write('Buzz');
+    document.write('Buzz','<br>');
   } 
   else //そのほか
   {
-    document.write(i);
+    document.write(i,'<br>');
   }
 }
